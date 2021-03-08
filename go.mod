@@ -1,6 +1,6 @@
 module github.com/rancher/rancher
 
-go 1.14
+go 1.16
 
 replace (
 	git.apache.org/thrift.git => github.com/apache/thrift v0.12.0
@@ -88,14 +88,14 @@ require (
 	github.com/rancher/kubernetes-provider-detector v0.1.2
 	github.com/rancher/lasso v0.0.0-20210219160604-9baf1c12751b
 	github.com/rancher/machine v0.15.0-rancher25
-	github.com/rancher/norman v0.0.0-20210219183327-731b8482505c
+	github.com/rancher/norman v0.0.0-20210225010917-c7fd1e24145b
 	github.com/rancher/rancher/pkg/apis v0.0.0
 	github.com/rancher/rancher/pkg/client v0.0.0
 	github.com/rancher/rdns-server v0.0.0-20180802070304-bf662911db6a
 	github.com/rancher/remotedialer v0.2.6-0.20200820180140-e5448aaba7ee
 	github.com/rancher/rke v1.3.0-rc1.0.20210218215557-dc70017c5941
 	github.com/rancher/security-scan v0.1.7-0.20200222041501-f7377f127168
-	github.com/rancher/steve v0.0.0-20210218173627-e8086b4525ca
+	github.com/rancher/steve v0.0.0-20210302143000-362617a677a9
 	github.com/rancher/system-upgrade-controller/pkg/apis v0.0.0-20200825145542-a04e2061be24
 	github.com/rancher/wrangler v0.7.3-0.20210219161540-ef7fe9ce2443
 	github.com/robfig/cron v1.1.0
